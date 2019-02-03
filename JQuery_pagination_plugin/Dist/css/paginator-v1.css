@@ -1,0 +1,62 @@
+.pagination-selector{
+    overflow: auto;
+}
+
+.pagination-item.pagination-item-not-active-page{
+    display: none;
+}
+.pagination-holder{
+    text-align: center;
+    font-size: 15px;
+}
+.pagination-counter{
+    letter-spacing: 1.3px;
+    margin-right: 5px;
+}
+.pagination-pages-buttons .pagination-number-page{
+    color: black;
+    display: inline-block;
+    padding: 2px 6px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+.pagination-pages-buttons .pagination-number-page.active{
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+.pagination-pages-buttons .pagination-number-page:not(.pagination-page-selector-not-active){
+    cursor: pointer;
+}
+.pagination-pages-buttons .pagination-number-page:not(.pagination-page-selector-not-active):hover{
+    background-color: #ddd;
+}
+.pagination-pages-buttons .pagination-number-page.active:hover{
+    background-color: #56c55a;
+}
+.pagination-pages-buttons .pagination-number-page.pagination-page-selector-dots{
+    background-color: inherit;
+    border: none;
+    color: black;
+    font-size: 2em;
+}
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.pagination-date-seperator {
+    text-align: center;
+    line-height: 23px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    font-family: 'Roboto Bold', sans-serif;
+    letter-spacing: 1.2px;
+    background-color: rgba(0, 0, 0, 0.08);
+}
